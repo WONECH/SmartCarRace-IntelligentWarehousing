@@ -1,0 +1,7 @@
+/mnt/Decodertest/bulid/CMakeFiles/edit_cache.dir
+/mnt/Decodertest/bulid/CMakeFiles/install/strip.dir
+/mnt/Decodertest/bulid/CMakeFiles/decodertest.dir
+/mnt/Decodertest/bulid/CMakeFiles/rebuild_cache.dir
+/mnt/Decodertest/bulid/CMakeFiles/list_install_components.dir
+/mnt/Decodertest/bulid/CMakeFiles/install/local.dir
+/mnt/Decodertest/bulid/CMakeFiles/install.dir

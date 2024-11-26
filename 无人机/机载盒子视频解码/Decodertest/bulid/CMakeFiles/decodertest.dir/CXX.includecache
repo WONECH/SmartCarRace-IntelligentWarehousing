@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DjiRtspImageSource.h
+cstdint
+-
+functional
+-
+string
+-
+
+/mnt/Decodertest/main.cpp
+stdio.h
+-
+iostream
+-
+chrono
+-
+thread
+-
+DjiRtspImageSource.h
+-
+stb_image_write.h
+/mnt/Decodertest/stb_image_write.h
+
+/mnt/Decodertest/stb_image_write.h
+stdlib.h
+-
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+assert.h
+-
+

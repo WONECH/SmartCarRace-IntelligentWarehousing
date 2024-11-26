@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+
+  <!-- 启动QRcode检测程序 -->
+  <node pkg="warehouse" type="qrcode_detect.py" name="detection" output="screen" >
+    <param name="image_topic"       value="/ep_cam/image_raw" />
+  </node>
+  <node pkg="warehouse" type="control.py" name="control" output="screen" >
+  </node>
+</launch>

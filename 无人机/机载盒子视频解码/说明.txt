@@ -1,0 +1,29 @@
+
+机载盒子视频解码说明
+
+步骤1：
+      终端中执行如下命令
+
+               sudo chmod 666 /dev/cedar_dev
+               sudo chmod 666 /dev/ion
+               sudo chmod 666 /dev/sunxi_soc_info
+
+步骤2：
+       将etc中的文件拷贝到 系统 /etc 目录下
+
+步骤3：
+       将t507Sdk拷贝到自行指定的路径下，本说明中拷贝到/mnt下
+
+步骤4：
+      在需要执行解码程序的终端中，指定环境变量
+      export LD_LIBRARY_PATH=/mnt/t507Sdk/libs/sdk_lib/lib64:/mnt/t507Sdk/libs/cedarx/lib
+      
+      注，如果需要开机启动，此变量设置需要在解码程序执行之前
+       
+步骤5：
+     将dji_sdk_demo_linux_cxx，替换之前的psdk程序
+
+步骤6：
+    Decodertest中为解码demo程序
+
+
